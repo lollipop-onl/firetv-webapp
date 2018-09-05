@@ -1,11 +1,12 @@
+image: node:latest
+
 pages:
-  stage: deploy
-  image: node:latest
   before_script:
     - yarn
   script:
     - yarn prod
     - pwd
+    - ls
     - echo "I am on gitlab-runner"
     - cp -rp dist public_html
   artifacts:
