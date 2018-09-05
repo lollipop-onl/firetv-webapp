@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "start": "parcel src/index.pug",
-    "prod": "parcel build src/index.pug"
+    "prod": "parcel build src/index.pug -d docs"
   },
   "devDependencies": {
     "parcel-bundler": "^1.9.7",
