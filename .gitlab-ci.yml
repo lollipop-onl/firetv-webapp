@@ -1,4 +1,5 @@
 image: node:latest
+stage: deploy
 
 pages:
   before_script:
