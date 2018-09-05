@@ -1,10 +1,9 @@
 image: node:latest
-stage: deploy
 
 pages:
-  before_script:
-    - yarn
+  stage: deploy
   script:
+    - yarn
     - yarn prod
     - pwd
     - ls
