@@ -1,0 +1,16 @@
+{
+  "name": "firetv-webapp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@gitlab.com:simochee/firetv-webapp.git",
+  "author": "tamuraryoya <tamuraryoya@team-lab.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel src/index.pug"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.9.7",
+    "pug": "^2.0.3",
+    "typescript": "^3.0.3"
+  }
+}
