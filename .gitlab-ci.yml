@@ -1,6 +1,6 @@
 pages:
   stage: deploy
-  image: node:8
+  image: node:latest
   before_script:
     - yarn
   script:
