@@ -1,0 +1,12 @@
+pages:
+  stage: deploy
+  image: node:8
+  before_script:
+    - yarn
+  script:
+    - yarn prod
+  artifacts:
+    paths:
+      - dist
+  only:
+    - master

@@ -6,7 +6,8 @@
   "author": "tamuraryoya <tamuraryoya@team-lab.com>",
   "license": "MIT",
   "scripts": {
-    "start": "parcel src/index.pug"
+    "start": "parcel src/index.pug",
+    "prod": "parcel build src/index.pug"
   },
   "devDependencies": {
     "parcel-bundler": "^1.9.7",
