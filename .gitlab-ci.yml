@@ -5,8 +5,11 @@ pages:
     - yarn
   script:
     - yarn prod
+    - pwd
+    - echo "I am on gitlab-runner"
+    - cp -rp dist public_html
   artifacts:
     paths:
-      - dist
+      - public_html
   only:
     - master
